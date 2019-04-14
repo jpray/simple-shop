@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "parcel src/index.html",
+    "dev": "parcel src/index.html --no-autoinstall",
     "build": "parcel build src/index.html"
   },
   "author": "",
@@ -13,9 +13,13 @@
   "browserslist": [
     "since 2018"
   ],
-  "dependencies": {},
+  "dependencies": {
+    "router5": "^7.0.2",
+    "router5-plugin-browser": "^7.0.2"
+  },
   "devDependencies": {
+    "lit-element": "^2.1.0",
     "parcel-bundler": "^1.12.3",
-    "lit-element": "^2.1.0"
+    "sass": "^1.18.0"
   }
 }
