@@ -1,4 +1,4 @@
-import { hasState, getState, setState, ITEMS } from "../app.state";
+import { hasState, getState, setState, ITEMS } from "./state";
 
 const fetchItems = () => {
     return window.fetch("server/demo-items.json")

@@ -1,5 +1,5 @@
 import { BaseElement, html } from "./toolkit";
-import { getItems } from "./services/items.service";
+import { getItems } from "./shared/items.service";
 import "./shop-list.scss";
 
 
