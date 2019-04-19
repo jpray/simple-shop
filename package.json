@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "parcel src/index.html --no-autoinstall",
-    "build": "parcel build src/index.html"
+    "dev": "node ./tasks/dev.js",
+    "build": "node ./tasks/build.js"
   },
   "author": "",
   "license": "ISC",
@@ -14,6 +14,8 @@
     "since 2018"
   ],
   "dependencies": {
+    "browser-sync": "^2.26.3",
+    "fs-extra": "^7.0.1",
     "router5": "^7.0.2",
     "router5-plugin-browser": "^7.0.2"
   },

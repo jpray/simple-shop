@@ -4,7 +4,10 @@ import "./shop-home.scss";
 class ShopHome extends BaseElement {
     render() {
         return html`
-            shop home
+            <h1>Home</h1>
+            <div>
+                Checkout our <a href="#/list">list of items</a>
+            </div>
         `;
     }
 }
